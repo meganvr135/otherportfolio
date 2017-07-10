@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!-- Set the style of the table -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+
+    <style>
+
+      body{
+        color: inherit;
+        font-family: 'Open Sans', sans-serif;
+      }
+
+      table, th, td{
+        border: 2px solid #01426a;
+        border-collapse: collapse;
+        padding: 15px;
+        text-align: center;
+        vertical-align: middle;
+        color: #01426a
+      }
+
+      th  {
+        background-color: #ece81a
+      }
+      tr:hover {background-color: #ece81a}
+
+    </style>
+  </head>
+
+  <body>
+
+    <!-- Table starts here-->
+    <div style ="overflow-x:auto;">
+      <table style="width:90%; margin:1em auto">
+
+        <!-- Define the first row of the table -->
+        <tr>
+          <th>Core4 Concept</th>
+          <th>Technical Definition</th>
+          <th>Real-Life Analogy</th>
+          <th>Python Example</th>
+          <th>Scratch Example</th>
+        </tr>
+
+        <!-- Fill in the row for Variables -->
+        <tr>
+        <td><b>Variables</b></td>
+          <td> A variable holds information and can be changed </td>
+          <td> Your child's name, because you want it to be simple and easy so you don't forget it. Plus when you have more children you won't be able to remember all of their names if they're super complicated. Lastly you can change their names if you really want to, but it might confuse you later on so it </td>
+          <td> score_player_one </td>
+          <td> Score </td>
+        </tr>
+
+        <!-- Fill in the row for Loops -->
+        <tr>
+          <td><b>Loops</b></td>
+          <td> A loop is a sequence of instruction s that is continually repeated until a certain condition is reached. </td>
+          <td> You continue to do homework (math, science, history, english, etc.) until you finish all of it. You don't just stop after you do one homework assignment. </td>
+          <td> for i range(5) </td>
+          <td> forever loop </td>
+        </tr>
+
+        <!-- Fill in the row for Conditionals -->
+        <tr>
+          <td><b>Conditionals</b></td>
+          <td> An action that only takes place if a certain condition is achieved. </td>
+          <td> If I don't water the plant, the plant will die. </td>
+          <td> if x = True, elif y = True, then end = True </td>
+          <td> if x = 100, then End Script </td>
+        </tr>
+
+        <!-- Fill in the row for Functions -->
+        <tr>
+          <td><b>Functions</b></td>
+          <td> A section of computer code that performs a specific task. </td>
+          <td> Walking into a building (there are multiple steps under one instruction, walk in, open door, and turn right.) </td>
+          <td> end = False </td>
+          <td> define jump custom block </td>
+        </tr>
+
+      </table>
+    </div>
+
+  </body>
+</html>
